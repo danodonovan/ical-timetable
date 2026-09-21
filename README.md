@@ -3,6 +3,20 @@
 Turns the school's EduLink iCal feed into one printable A4 PDF per week of the
 timetable cycle — colour-coded by subject, with times, set codes and rooms.
 
+## What it looks like
+
+Two sheets per cycle, landscape A4, designed to be pinned up and read from a
+few feet away: subject in bold, set code and room underneath, break and lunch
+as full-width bands, and a legend counting that week's lessons per subject.
+
+![Week A sheet](docs/week-a.png)
+
+![Week B sheet](docs/week-b.png)
+
+Both images are real output from the script, rendered from a made-up feed — an
+invented group, set codes, rooms and term dates — so nothing here is anyone's
+actual timetable.
+
 ## Run
 
 Needs [`uv`](https://docs.astral.sh/uv/) (already installed here); it fetches
